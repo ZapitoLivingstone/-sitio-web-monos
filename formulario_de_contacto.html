@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monos</title>
+    <link rel="stylesheet" href="css/sitio.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Monos.com</h1>
+        </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="detalles.html">Detalles</a>
+            <a href="galeria_de_imagenes.html">Galeria de Imágenes</a>
+            <a href="formulario_de_contacto.html">Contacto</a>
+        </nav>
+        <main>
+            <h2>Formulario de contacto</h2>
+            <div class="formulario">
+            <form action="enviar.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+            </div>
+        </main>
+        <footer> &copy 2024 | Desarrollado por Matias Garrido | Contacto: matias.garrido40@inacapmail.com</footer>
+    </div>
+    
+</body>
+</html>
